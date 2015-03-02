@@ -1,0 +1,38 @@
+* {
+  font-family: Verdana, Sans-serif; }
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 0.2em;
+  border-bottom: solid 2px black;
+  font-size: 1.2em;
+  letter-spacing: 1px; }
+
+.main-list {
+  margin: 0;
+  padding: 0; }
+  .main-list .list-item {
+    list-style: none;
+    position: relative;
+    padding: 0; }
+    .main-list .list-item .date {
+      display: inline-block;
+      width: 20%;
+      font-style: italic; }
+    .main-list .list-item .title {
+      display: inline-block; }
+    .main-list .list-item .position {
+      display: inline-block;
+      position: absolute;
+      right: 0; }
+      .main-list .list-item .position:before {
+        content: "["; }
+      .main-list .list-item .position:after {
+        content: "]"; }
+    .main-list .list-item .project {
+      margin-left: 20%; }
+    .main-list .list-item .detail {
+      margin-left: 17%;
+      list-style-type: disc; }
+      .main-list .list-item .detail .item {
+        text-indent: -0.2em; }
