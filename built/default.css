@@ -21,7 +21,7 @@ h1 {
     padding: 0; }
     .main-list .list-item .date {
       display: inline-block;
-      width: 150px;
+      width: 160px;
       font-style: italic; }
     .main-list .list-item .title {
       display: inline-block; }
@@ -34,9 +34,9 @@ h1 {
       .main-list .list-item .position:after {
         content: "]"; }
     .main-list .list-item .project {
-      margin-left: 150px; }
+      margin-left: 160px; }
     .main-list .list-item .detail {
-      margin-left: 135px;
+      margin-left: 145px;
       list-style-type: disc; }
       .main-list .list-item .detail .item {
         text-indent: -0.2em; }
